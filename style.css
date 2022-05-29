@@ -1,0 +1,187 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #cccc;
+    line-height: 22px;
+    background-color: pink;
+}
+.card
+{
+    background-color: #fff;
+    height: 527px;
+    width: 570px;
+    margin: -564.5px 587px;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.card::-webkit-scrollbar
+{
+    width:15px;
+    border-radius: 5px;
+    
+}
+.card::-webkit-scrollbar-thumb
+{
+    background-color: #787676;
+    border-radius: 10px;
+    width: 3px;
+    border:3px solid #fff;
+}
+.card::-webkit-scrollbar-track
+{
+    background-color: rgba(204, 204, 204, 0);
+    border-radius: 10px;
+    margin-block: .5em;
+}
+.social-icon
+{
+    margin: 112px 188px;
+}
+.social-icon > img
+{
+    height: 20px;
+    width: auto;
+    padding-left: 10px;
+}
+hr{
+    margin-top: 45px;
+}
+h4
+{
+    font-family: Arial;
+    color: #3f3f3f;
+    font-weight: bolder; 
+    margin-top: 10px;
+    display: inline-block;
+    flex-direction: column;
+}
+h2
+{
+    font-family: Arial;
+    color: #3f3f3f;
+    font-weight: bold; 
+    margin-top: 45px;
+}
+h1
+{
+    font-family: Arial black ;
+    color: #3f3f3f;
+    font-weight: bold; 
+}
+.text1 , .text3
+{
+    margin-top:5px ;
+    display: inline-flex;
+    flex-direction: column;
+
+}
+.text1 > p
+{
+    margin-top:20px ;
+    
+}
+.text3 > p{
+    margin-top: 20px;
+}
+.text3 > .p4{
+    margin-left: 15px;
+}
+.text1 > .p2
+{
+    margin-left: 15px;
+}
+p
+{
+    font-family: Arial;
+    color: #787676;
+}
+.img
+{
+    margin-top: 20px;
+}
+.img > img
+{
+    height: 50px;
+    width: auto;
+}
+.img > .roc
+{
+    margin-left: 150px;
+}
+.l-menu
+{
+    height: 527px;
+    width: 523px;
+    margin: 37px 81px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.p-img > img
+{
+    border-radius: 5px;
+    height: 589px;
+    width: 385px;
+    margin: -25px 72px;
+    box-shadow: 14px 9px 9px 1px #78767659;
+    overflow: hidden;
+}
+.textheading > h1
+{
+    margin: -99px 147px;
+    color: #fff;
+}
+.links
+{
+    height: 30px;
+    width:auto;
+}
+.pages ul li 
+{
+   list-style: none;
+}
+ul
+{
+    margin: -510px 20px;
+}
+.pages > ul > li > a > img
+{
+    margin-bottom: 32px;
+}
+.cloud
+{
+    margin-top: 30px;
+    margin-left: -6px;
+    height: 40px;
+    width:auto;
+}
+.menu > img
+{
+    height: 20px;
+    width: auto;
+}
+.menu
+{
+    background-color: #b565e2;
+    margin: 7px 10px;
+    border-top-left-radius: 5px;
+    overflow: hidden;
+    width: 74px;
+    position: absolute;
+    top: 28px;
+    left: 70px;
+    padding: 25px 25px;
+}
+.pricing > h4
+{
+    display: inline-block;
+   
+}
